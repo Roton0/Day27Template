@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+
+/* .fullWebsite {
+    width: 1350px;
+    margin: auto;
+} */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header {
+    background-color: rgb(34, 195, 163);
+    padding: 25px 40px;
+}
+
+.left_logo {
+    width: 30%;
+    float: left;
+}
+
+.left_logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.right_manu {
+    width: 70%;
+    float: right;
+}
+
+.right_manu ul {
+    text-align: right;
+}
+
+.right_manu ul li {
+    display: inline-block;
+}
+
+.right_manu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 10px;
+}
+
+.bannar {
+    padding: 180px 0px 155px;
+    background-image: url("https://i.ibb.co/qnYhxhF/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.banner_contert h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 15px;
+}
+
+.banner_contert h3 {
+    font-size: 20px;
+    color: rgb(204, 242, 234);
+}
+
+.banner_contert a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid #e6f8f5;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+
+.service {
+    padding: 40px 0px 0px;
+}
+
+.service_caption {
+    padding: 65px 0px;
+}
+
+.service_caption h3 {
+    font-size: 32px;
+    color: rgb(85, 85, 85);
+    padding-bottom: 25px;
+}
+
+.service_caption p {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(119, 119, 119);
+}
+
+.item {
+    width: 100%;
+}
+
+.common {
+    padding: 50px 50px 125px;
+    width: 25%;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(0, 183, 143);
+}
+
+.common span i {
+    font-size: 40px;
+    padding: 15px;
+    color: rgb(13, 191, 155);
+}
+
+.common h3 {
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(102, 102, 102);
+    padding: 10px;
+}
+
+.common p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    color: rgb(119, 119, 119);
+}
+
+.about {
+    padding: 80px 40px;
+}
+
+.about_title {}
+
+.about_title h2 {
+    font-size: 32px;
+    color: rgb(85, 85, 85);
+}
+
+.about_title p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 0px 50px;
+    color: rgb(121, 121, 121);
+}
+
+.about_content {}
+
+.left_image {
+    width: 47%;
+    float: left;
+}
+
+.left_image img {
+    max-width: 95%;
+    margin-right: 20px;
+}
+
+.right_text {
+    width: 51%;
+    float: right;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.right_text .text {}
+
+.right_text .text h3 {
+    color: rgb(96, 96, 96);
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.right_text .text p {
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    background-color: rgb(246, 246, 246);
+    padding: 65px 0px 80px;
+}
+
+.contact_title {}
+
+.contact_title h3 {
+    font-size: 30px;
+    padding: 10px 0px;
+    color: rgb(85, 85, 85);
+}
+
+.contact_title p {
+    font-size: 18px;
+    padding: 15px 0px 60px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(125, 125, 125);
+}
+
+.contact_method {
+    width: 100%;
+    margin: auto;
+}
+
+.contact_method .method {
+    width: 33%;
+    float: left;
+}
+
+.method i {
+    font-size: 16px;
+    color: rgb(13, 191, 155);
+    padding-bottom: 5px;
+}
+
+.method p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(153, 153, 153);
+}
+
+.social {
+    background-color: rgb(13, 191, 155);
+    padding: 20px 0px;
+}
+
+.social i {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.footer {
+    background-color: rgb(34, 34, 34);
+    padding: 15px 0px;
+}
+
+.footer p {
+    color: rgb(82, 82, 82);
+    font-family: "Open Sans", sans-serif;
+}

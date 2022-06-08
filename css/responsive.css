@@ -1,0 +1,141 @@
+@media (max-width:1230px) {
+    .service_caption {
+        padding: 50px 0px;
+    }
+    .common {
+        padding: 20px 20px;
+        height: 290px;
+    }
+}
+
+@media (max-width:1080px) {
+    .left_image img {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    .right_text {
+        width: 50%;
+    }
+    .left_image {
+        width: 46%;
+        margin-top: 15px;
+    }
+    .contact_title p {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (max-width:990px) {
+    .item {
+        width: 80%;
+        margin: auto;
+    }
+    .common {
+        width: 50%;
+        border-bottom: 0;
+        height: 200px;
+    }
+}
+
+@media (max-width:800px) {
+    .bannar {
+        padding: 140px 0px;
+    }
+    .header {
+        padding: 15px 0px;
+    }
+    .left_logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .right_manu {
+        width: 100%;
+    }
+    .right_manu ul {
+        text-align: center;
+    }
+    .service_caption p {
+        width: 70%;
+        margin: auto;
+    }
+    .item {
+        width: 100%;
+    }
+    .about_title p {
+        width: 100%;
+        margin: auto;
+    }
+    .left_image {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .right_text {
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:510px) {
+    .right_manu ul {
+        width: 65%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .bannar {
+        padding: 100px 0px;
+    }
+    .banner_contert h2 {
+        font-size: 2rem;
+    }
+    .banner_contert h3 {
+        font-size: 13px;
+    }
+    .banner_contert a {
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-top: 30px;
+    }
+    .common {
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .contact_method .method {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:405px) {
+    .right_manu ul li a {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width:375px) {
+    .right_manu ul li a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:330px) {
+    .header {
+        padding: 10px 0px;
+    }
+    .right_manu ul li a {
+        font-size: 12px;
+    }
+    .bannar {
+        padding: 70px 0px;
+    }
+    .banner_contert h2 {
+        font-size: 1.6rem;
+    }
+    .banner_contert h3 {
+        font-size: 10px;
+    }
+}
