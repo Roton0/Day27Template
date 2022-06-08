@@ -139,3 +139,25 @@
         font-size: 10px;
     }
 }
+
+@media (max-width:310px) {
+    .common {
+        height: 270px;
+    }
+}
+
+@media (max-width:265px) {
+    .right_manu ul {
+        width: 80%;
+    }
+    .banner_contert h2 {
+        font-size: 1rem;
+    }
+    .contact {
+        padding-bottom: 40px;
+    }
+    .social i {
+        width: 17%;
+        padding-top: 15px;
+    }
+}
